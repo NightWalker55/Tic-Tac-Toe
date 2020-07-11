@@ -1,0 +1,106 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+    min-height: 100vh;
+    overflow: hidden;
+    color:white;
+}
+
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(3,150px);
+    position: absolute;
+    top:15%;
+    left:20%;
+}
+
+    .block{
+        cursor: pointer;
+    }
+
+    .block1{
+        position: relative;
+        border-right: 2px solid yellow;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block2{
+        position: relative;
+        border-right: 2px solid yellow;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block3{
+        position: relative;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block4{
+        position: relative;
+        border-right: 2px solid yellow;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block5{
+        position: relative;
+        border-right: 2px solid yellow;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block6{
+        position: relative;
+        border-bottom: 2px solid yellow;
+    }
+
+    
+    .block7{
+        position: relative;
+        border-right: 2px solid yellow;
+    }
+
+    
+    .block8{
+        position: relative;
+        border-right: 2px solid yellow;
+    }
+
+    .block9{
+        position: relative;
+    }
+
+    .circle{
+        position: absolute;
+        top:20%;
+        left:30%;
+        width:100px;
+        height:100px;
+        background: red;
+        border-radius: 50%;
+        transition: .4s;
+
+    }
+
+    .fa-times{
+        position: absolute;
+        top:20%;
+        left:35%;
+        font-size:80px;
+        color:yellow;
+    }
+
+    
+
+   
+.display{
+    font-size: 40px;
+}
